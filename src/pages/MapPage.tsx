@@ -1,4 +1,4 @@
-import { MapLocations } from "@components/map/map-locations";
+import { MapLocations } from "@/components/core/map";
 
 
 const MapPage = () => {
