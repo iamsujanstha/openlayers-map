@@ -15,8 +15,8 @@ const MainLayout = () => {
 
   return (
     <Layout>
+      <Sidebar />
       <MapWrapper>
-        <Sidebar />
         <TabContent>
           <Outlet />
         </TabContent>

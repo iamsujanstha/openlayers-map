@@ -12,6 +12,17 @@ export const Layout = styled.div`
 
   `
 
+export const MapWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
 export const TabContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -30,18 +41,5 @@ export const TabContent = styled.div`
     max-height: 50vh;
     padding: 12px;
     text-align: start;
-  }
-`;
-
-
-
-export const MapWrapper = styled.div`
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
   }
 `;
