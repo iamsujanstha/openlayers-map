@@ -13,7 +13,6 @@ const Sidebar = () => {
     tabRefs.current[0]?.focus();
   }, []);
 
-
   const handleKeyDown = (index: number) => (e: React.KeyboardEvent) => {
     if (e.key === ArrowDown) {
       e.preventDefault();
@@ -25,7 +24,6 @@ const Sidebar = () => {
       tabRefs.current[prevIndex]?.focus();
     }
   };
-
 
   return (
     <SidebarWrapper>

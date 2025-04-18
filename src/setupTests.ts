@@ -1,7 +1,5 @@
 import '@testing-library/jest-dom';
 
-// src/setupTests.ts
-
 class ResizeObserver {
   observe() { }
   unobserve() { }
