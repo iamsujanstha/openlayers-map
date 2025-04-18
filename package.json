@@ -8,14 +8,11 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "npm run test"
-    ]
-  },
+  "lint-staged": { "*": ["pnpm test"] },
   "dependencies": {
     "ol": "^10.5.0",
     "react": "^18.2.0",
