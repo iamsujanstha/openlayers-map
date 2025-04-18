@@ -1,5 +1,5 @@
 
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { ILocationDetails } from '@/components/core/map';
 import { useLocations } from '@/hooks/useLocations';
 
@@ -33,10 +33,4 @@ export const MapProvider = ({ children }: { children: React.ReactNode }) => {
       {children}
     </MapContext.Provider>
   );
-};
-
-export const useMapContext = () => {
-  const context = useContext(MapContext);
-  if (!context) throw new Error("useMapContext must be used within MapProvider");
-  return context;
 };

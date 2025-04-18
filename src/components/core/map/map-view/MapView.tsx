@@ -7,14 +7,14 @@ import { fromLonLat } from 'ol/proj';
 import { Vector as VectorSource, OSM } from 'ol/source';
 import { Vector as VectorLayer, Tile as TileLayer } from 'ol/layer';
 import { Circle as CircleStyle, Stroke, Style } from 'ol/style';
-import { useMapContext } from '@/contexts/MapContext';
+import { useMap } from '@/hooks/useMap';
 
 
 const DEFAULT_ZOOM = 16;
 const SEOUL_CITY_HALL = [126.9780, 37.5665];
 
 const MapView = () => {
-  const { locations } = useMapContext();
+  const { locations } = useMap();
   const locationList = useMemo(() => locations?.map(({ lng, lat }) => [lng, lat]) ?? [], [locations]);
 
   useEffect(() => {

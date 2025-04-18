@@ -1,3 +1,4 @@
+import { Sidebar } from '@/components/shared/sidebar';
 import {
   Layout,
   MapWrapper,
@@ -6,6 +7,7 @@ import {
 import { useRedirectOnBasePath } from '@/hooks/useRedirectToBasePath';
 import { NavigationPath } from '@/routes/navigation-path';
 import { Outlet } from 'react-router-dom';
+import { MapView } from '@/components/core/map';
 
 
 const MainLayout = () => {
@@ -14,9 +16,11 @@ const MainLayout = () => {
   return (
     <Layout>
       <MapWrapper>
+        <Sidebar />
         <TabContent>
           <Outlet />
         </TabContent>
+        <MapView />
       </MapWrapper>
     </Layout>
   );

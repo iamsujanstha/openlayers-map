@@ -9,12 +9,12 @@ import {
   ShimmerWrapper,
   ShimmerLine,
 } from './MapLocations.styles';
-import { useMapContext } from '@/contexts/MapContext';
 import { useLocations } from '@/hooks/useLocations';
+import { useMap } from '@/hooks/useMap';
 
 
 const MapLocations = () => {
-  const { locations, setLocations } = useMapContext();
+  const { locations, setLocations } = useMap();
   const { loading } = useLocations();
 
   const handleChange = (index: number, field: 'lat' | 'lng') => (e: React.ChangeEvent<HTMLInputElement>) => {
