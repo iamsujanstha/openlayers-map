@@ -6,7 +6,7 @@ const Layout = lazy(() => import('@/components/layouts/MainLayout'))
 const MapPage = lazy(() => import('@/pages/MapPage'))
 const MeasurementPage = lazy(() => import('@/pages/MeasurementPage'))
 const OverlayPage = lazy(() => import('@/pages/OverlayPage'))
-const PageNotFound = lazy(() => import('@/components/shared/PageNotFound'))
+const PageNotFound = lazy(() => import('@/components/core/PageNotFound'))
 
 
 const appRoutes: RouteObject[] = [
