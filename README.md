@@ -1,7 +1,7 @@
 
 # 🗺️ OpenLayers Accessibility Map Project
 
-This project is an **Angelswing frontend task** built with **React + Vite** using **OpenLayers**. It emphasizes **accessibility**, **keyboard navigation**, **real-time settings reflection**, and **mobile responsiveness**. Unit testing is implemented using **Vitest** to ensure core functionalities work as expected.
+This project is based on **OpenLayers Map** built with **React + Vite** using **OpenLayers**. It emphasizes **accessibility**, **keyboard navigation**, **real-time settings reflection**, and **mobile responsiveness**. Unit testing is implemented using **Vitest** to ensure core functionalities work as expected.
 
 ---
 
