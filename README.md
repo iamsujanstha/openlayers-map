@@ -1,8 +1,13 @@
 
-# 🗺️ Angelswing Frontend Assignment
+# 🗺️ OpenLayers Accessibility Map Project
+
+This project is an **Angelswing frontend task** built with **React + Vite** using **OpenLayers**. It emphasizes **accessibility**, **keyboard navigation**, **real-time settings reflection**, and **mobile responsiveness**. Unit testing is implemented using **Vitest** to ensure core functionalities work as expected.
+
+---
 
 ## 🚀 Features
 
+- 🔍 **Interactive OpenLayers Map**
 - ♿ **Accessibility-first Approach**
   - Seamless **keyboard navigation** using `Tab`, `Enter`, and arrow keys.
 - 🕹️ **Real-time Map Settings**
@@ -13,17 +18,20 @@
   - Key components and logic covered with unit tests.
 - 🔒 **Pre-commit Test and Lint Checks**
   - Enforced with **Husky** and **lint-staged**.
+- ⚡ **Built with Vite**
+  - Blazing fast development and optimized builds.
 
 ---
 
 ## 🧰 Tech Stack
 
 - **React** (with functional components and hooks)
+- **Vite** (build tool)
 - **OpenLayers** (web mapping library)
 - **Vitest** (unit testing)
 - **TypeScript** 
 - **Styled Components** *(for styling)*
-- **Husky** + **lint-staged** (for Git hook-based test)
+- **Husky** + **lint-staged** (for Git hook-based test/lint enforcement)
 
 ---
 
@@ -32,9 +40,8 @@
 ### 1. Clone the repository
 
 ```bash
-git https://github.com/angelswing-recruit/iamsujanstha-20250418.git
-cd iamsujanstha-20250418
-git checkout feat/angelswing
+git clone https://github.com/your-username/openlayers-accessibility-map.git
+cd openlayers-accessibility-map
 ```
 
 ### 2. Install dependencies
@@ -63,7 +70,7 @@ To maintain code quality and reliability, this project uses Husky and lint-stage
 
 ## ♿ Accessibility Details
 
-Accessibility is a key focus of this project, follows WCAG guidelines.
+Accessibility is a key focus of this project, enabling users to navigate the map UI without a mouse.
 
 - ✅ All interactive elements are keyboard navigable using `Tab`, `Shift+Tab`, and `Enter`.
 - ✅ Proper `tabindex`, `aria-label`, and semantic HTML used.
