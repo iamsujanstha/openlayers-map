@@ -1,5 +1,5 @@
 import React from 'react';
-import MarkerIcon from '@assets/svg/marker.svg';
+import MarkerIcon from '@/assets/svg/marker.svg';
 import {
   ContentBox,
   Coordinate,

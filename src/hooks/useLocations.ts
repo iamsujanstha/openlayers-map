@@ -1,4 +1,4 @@
-import { ENV_COFIG } from '@configs/env-config';
+import { ENV_COFIG } from '@/configs/env-config';
 import { useEffect, useReducer, useRef, useCallback } from 'react';
 
 export type LocationType = [number, number, number];

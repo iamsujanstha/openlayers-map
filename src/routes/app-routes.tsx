@@ -1,12 +1,12 @@
 import { RouteObject } from 'react-router-dom'
 import { lazy } from 'react'
-import { NavigationPath } from '@routes/navigation-path'
+import { NavigationPath } from '@/routes/navigation-path'
 
-const Layout = lazy(() => import('@components/layouts/MainLayout'))
-const MapPage = lazy(() => import('@pages/MapPage'))
-const MeasurementPage = lazy(() => import('@pages/MeasurementPage'))
-const OverlayPage = lazy(() => import('@pages/OverlayPage'))
-const PageNotFound = lazy(() => import('@components/shared/PageNotFound'))
+const Layout = lazy(() => import('@/components/layouts/MainLayout'))
+const MapPage = lazy(() => import('@/pages/MapPage'))
+const MeasurementPage = lazy(() => import('@/pages/MeasurementPage'))
+const OverlayPage = lazy(() => import('@/pages/OverlayPage'))
+const PageNotFound = lazy(() => import('@/components/shared/PageNotFound'))
 
 
 const appRoutes: RouteObject[] = [
